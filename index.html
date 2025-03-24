@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Wiki</title>
+    <link rel="icon" type="image/png" href="wikipedia.png">
+</head>
+<body>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        ul { list-style: none; padding-left: 5px; }
+        a { color: blue; text-decoration: none; }
+        .bar {
+            background-color: #606069;
+            padding: 15px;
+            border-top: solid 1px #cdcdcd;
+            border-bottom: solid 1px #cdcdcd;
+        }
+        .content {
+            max-width: 1440px;
+            margin: auto;
+            grid-gap: 3rem;
+            display: grid;
+            gap: 3rem;
+            grid-template-areas: "sidebar main anchors";
+            grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .footer {
+            min-height: 20vh;
+            border-top: solid 1px #cdcdcd;
+        }
+        .anchors {
+            border-left: solid 1px #cdcdcd;
+            padding-left: 15px;
+        }
+        .sidebar {
+            border-right: solid 1px #cdcdcd;
+            margin-left: 10px;
+        }
+        figure {
+            text-align: center;
+        }
+        header {
+            display: flex;
+        }
+        #simbolwiki {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        #logo-description {
+            font-size: 15px;
+        }
+        .sidebar {
+            text-align: center;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar li {
+            margin: 8px 0;
+        }
+        .sidebar a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 16px;
+            border: 2px solid black;
+            border-radius: 7px;
+            transition: border-radius 0.7s ease;
+        }
+        .sidebar a:hover {
+            border-radius: 20px;
+            background-color: rgb(211, 210, 210);
+        }
+        .main {
+            text-align: center;
+        }
+        .anchors a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 16px;
+            border: 2px solid black;
+            border-radius: 7px;
+            transition: border-radius 0.7s ease;
+        }
+        .anchors a:hover {
+            border-radius: 20px;
+            background-color: rgb(211, 210, 210);
+        }
+        mark {
+            background-color: yellow;
+            color: black;
+        }
+        #busca {
+            width: 85%;
+            padding: 15px;
+            border: 2px solid black;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+    </style>
+
+    <header>
+        <picture id="simbolwiki">
+            <div class="logo">
+                <img src="Wikipedia-Symbol.png" width="200" alt="Simbolo da Wikipédia"/>
+            </div>
+            <div id="wiki">
+                <h1>WIKIPÉDIA<small id="logo-description">A enciclopédia livre.</small></h1>
+            </div>
+        </picture>
+    </header>
+    <div class="bar" alt="Barra de divisão do cabeçalho e demais partes do site"></div>
+
+    <div class="content">
+        <nav aria-label="Navegação externa">
+            <div class="sidebar">
+                <h2>Links Jujutsu Kaisen</h2>
+                <ul>
+                    <li><a href="https://pt.wikipedia.org/wiki/Satoru_Gojo">Satoro Gojo wiki</a></li><br>
+                    <li><a href="https://pt.wikipedia.org/wiki/Ryomen_Sukuna">Ryomen Sukuna wiki</a></li><br>
+                    <li><a href="https://pt.wikipedia.org/wiki/Yuji_Itadori">Itadori Yuji wiki</a></li><br>
+                    <li><a href="https://pt.wikipedia.org/wiki/Yuta_Okkotsu">Yuta Okkotsu wiki</a></li><br>
+                    <br>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <div class="main" id="mainPage">
+                <h1 id="satoro">Satoro Gojo</h1>
+                <p>Satoru Gojo (五条悟, Gojō Satoru) é um personagem fictício da série de anime e mangá Jujutsu Kaisen criado por Gege Akutami. Ele fez sua primeira aparição na animação prequela Jujutsu Kaisen 0 como o mestre de Yuta Okkotsu, um adolescente amaldiçoado. Em Jujutsu Kaisen, Gojo assume o mesmo papel, mas desta vez ele orienta o estudante Yuji Itadori que sofre uma maldição semelhante e quer que ele o ajude a ser mais forte ao mesmo tempo em que protege outros personagens da série.</p>
+                <p>Gege Akutami criou Gojo para ser um personagem forte, mas simpático, que se interessa por seus alunos. Ele foi dublado por Yuichi Nakamura em japonês e Léo Rabelo em português nas adaptações animadas por MAPPA. Gojo tem sido um personagem altamente popular, aparecendo não apenas nas pesquisas de opinião do Jujutsu Kaisen, mas também no anime em geral. Os críticos apreciaram a forma como ele é retratado no mangá e no anime devido ao seu equilíbrio entre um professor forte e, ao mesmo tempo, um homem amigável.</p>
+                <picture>
+                    <img src="Satoru_Gojo.png" alt="Satoro Gojo expandindo o domínio">
+                    <figcaption>Satoro Gojo</figcaption>
+                </picture><br>
+                <h2 id="concepção">Criação e concepção</h2>    <div id="Voltar"><a href="#satoro">Voltar</a></div>
+                <p>Em um fanbook oficial do mangá, Akutami comentou que ele "queria criar o personagem mais forte que pudesse ser facilmente distinguido". Uma das principais ideias do design de Gojo é a máscara que ele usa, permitindo-o enxergar apesar de seus poderes sobrenaturais. Seus olhos, conhecidos como os "Seis Olhos", eram utilizados principalmente para detectar maldições. Quanto à aparência de Gojo, Akutami admite ter sido inspirado por um dos supervisores do exame chunin da série Naruto, que usou bandagens (bandagens usadas por Gojo na prequela) em vez de Kakashi Hatake, um dos personagens principais na mesma manga. Ele explica que a aparência deste personagem havia deixado uma forte impressão nele na época. Seu projeto é para ser o de um homem bonito, muitas vezes chamado bishōnen. Entretanto, se Gojo sai com uma mulher em particular, Akutami admite que não pode imaginar Gojo sendo fiel a ela.[4] Em relação aos alunos, principalmente Yuji Itadori e Yuta Okkotsu, o mangaká descreveu seu relacionamento de modo simples, indicando que Gojo deseja que desordeiros como eles se fortalecessem. Ao contrário da tradição japonesa de se referir às pessoas pelo sobrenome, Satoru trata cada um de seus alunos pelo primeiro nome. Akutami explicou que essa escolha foi feita devido à percepção de Gojo de que tais convenções sociais não eram importantes.</p>
+                <p>Park Sung-hoo, que dirigiu a primeira temporada da adaptação anime da série, bem como o filme, disse que adaptar uma das primeiras cenas de Gojo envolvendo a cena de sua expansão de domínio era particularmente difícil de acertar. Em relação ao filme, Park afirmou que embora "o ponto alto do filme seja, é claro, a história de Yuta e Rika como os personagens principais de Jujutsu Kaisen 0" ele também quis focar em mais personagens do mangá, especialmente Gojo e a velha amizade de Geto.</p>
+                <h2 id="aparicao">Aparições</h2>    <div id="Voltar"><a href="#satoro">Voltar</a></div>
+                <h3 id="jujutsu0">Jujutsu Kaisen 0</h3>    <div id="Voltar"><a href="#satoro">Voltar</a></div>
+                <p>Como um feiticeiro que atua como professor na Escola Técnica Superior de Jujutsu de Tóquio, usando seu autoproclamado e considerado por muitos aliados e inimigos como uma das pessoas mais perigosas vivas, cujo título raramente é contestado, Gojo faz sua primeira aparição em Jujutsu Kaisen 0 quando tenta convencer seus superiores a permitir que Yuta Okkotsu entre para a escola mágica a fim de controlar Rika e evitar sua solicitude. Mais tarde ele se torna seu professor e o apresenta à sua turma composta por Maki Zen'in, Toge Inumaki e Panda, com o intuito de ajudar Yuta a controlar sua maldição e, ao mesmo tempo, desenvolver suas amizades.[6] Durante uma batalha, Gojo confronta Miguel, um maldito usuário da equipe de Geto, e consegue derrotá-lo facilmente. Depois que todos os aliados de Geto são derrotados, Gojo vai para a escola secundária para confrontá-lo. Após discutir com Geto, Gojo fala com ele uma última vez antes de matá-lo. Ele então conhece Yuta e o informa que ele é um parente distante dele. Quando a maldição de Rika, a amiga falecida de Yuta, é destruída, Gojo diz que foi Yuta quem a amaldiçoou e o parabeniza por exorcizá-la.</p>
+                <h3 id="jujutsu">Jujutsu Kaisen</h3>    <div id="Voltar"><a href="#satoro">Voltar</a></div>
+                <p>Em Jujutsu Kaisen, no dia do Evento da Boa Vontade de Quioto, ele se reúne com outros professores para acompanhar a cerimônia. Durante o evento, Gojo assiste junto às outras faculdades por meio de monitores. Depois que invasores surgem, Gojo, Utahime e Yoshinobu se dirigem ao local, e o feiticeiro jujutsu decide lidar com Juzo, onde venceu com facilidade. Em seguida, Gojo usa a técnica Vazio Roxo contra Hanami, sem saber se a maldição foi eliminada. Por conta de suas ações, Satoru é altamente respeitado pelos praticantes de magia e detém considerável influência nesse mundo. Ele convence os superiores na faculdade a manterem Yuji Itadori vivo até que ele consuma todos os dedos de Ryomen Sukuna. Além disso, ele instruiu Yuji, Megumi Fushiguro e Nobara Kugisaki.</p>
+                <p>Posteriormente, o mangá explora o passado de Gojo, quando ele e Geto, durante o segundo ano, são encarregados de escoltar a receptáculo do Plasma Estelar Riko Amanai, a qual se uniria ao feiticeiro imortal conhecido como Tengen.[8][9] No momento em que a fusão estava prestes a acontecer, o mercenário Toji Fushiguro derrota os dois feiticeiros[10] e assassina Riko.[11] Enquanto Gojo se restabelece e vence Toji em combate, Geto, atormentado por sua lealdade aos não-feiticeiros, decide romper o ciclo de proteção e jurar a extinção deles para evitar a multiplicação de espíritos amaldiçoados.[12] Em um ato de fúria e desilusão, ele foge, massacrando uma vila com suas magias. Gojo confronta Geto por seus atos, porém, incapaz de eliminá-lo, permite sua fuga.</p>
+                <p>Voltando ao presente, Gojo é emboscado pelos espíritos amaldiçoados de Grau Especial em Shibuya, sendo selado no Reino da Prisão (獄門疆, Gokumonkyō) por Kenjaku após Hanami exorcizá-lo. Entretanto, Gojo garante a proteção de Yuji por meio de Okkotsu, evitando sua execução. No desfecho dramático do Jogo do Abate, ele se liberta com êxito por seus alunos e desafia Sukuna, agora com seu novo hospedeiro Megumi, para um duelo marcado no dia 24 de dezembro. Após um duelo acirrado entre ambos os feiticeiros, Gojo é derrotado pelo "Rei das Maldições" e morto ao ser cortado ao meio, e, por conseguinte, vê-se conversando com Geto e seus amigos falecidos.</p>
+            </div>
+        </main>
+
+        <nav>
+            <div class="anchors">
+                <h2>Neste Artigo</h2>
+                <input type="text" id="busca" placeholder="Digite para buscar..."><br>
+                <ul>
+                    <li><a href="#concepção">Criação e concepção</a></li><br><br>
+                    <li><a href="#aparicao">Aparições na obra</a></li><br><br>
+                    <li><a href="#jujutsu0">Jujutsu Kaisen 0</a></li><br><br>
+                    <li><a href="#jujutsu">Jujutsu Kaisen</a></li><br><br>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h5>-Wikipédia</h5>
+            <small><strong>Todos direitos reservados:</strong></small>
+            <small>Satoro Gojo</small>
+        </div>
+    </footer>
+
+    <script>
+        const searchField = document.getElementById('busca');
+        const mainPage = document.getElementById('mainPage');
+        let originalContent = mainPage.innerHTML; // Salva o conteúdo original
+
+        function realizaBusca(busca) {
+            // Restaura o conteúdo original antes de aplicar a nova busca
+            mainPage.innerHTML = originalContent;
+
+            if (busca.trim() === "") {
+                return; // Se a busca estiver vazia, não faz nada
+            }
+
+            // Função para marcar o texto nos nós de texto
+            function markTextNodes(node, busca) {
+                const regex = new RegExp(`(${busca})`, 'gi');
+                if (node.nodeType === Node.TEXT_NODE) {
+                    const newText = node.textContent.replace(regex, '<mark>$1</mark>');
+                    if (newText !== node.textContent) {
+                        const span = document.createElement('span');
+                        span.innerHTML = newText;
+                        node.replaceWith(span);
+                    }
+                } else if (node.nodeType === Node.ELEMENT_NODE && node.childNodes && !['SCRIPT', 'STYLE', 'MARK'].includes(node.tagName)) {
+                    Array.from(node.childNodes).forEach(child => markTextNodes(child, busca));
+                }
+            }
+
+            // Aplica a busca nos nós de texto
+            Array.from(mainPage.childNodes).forEach(child => markTextNodes(child, busca));
+        }
+
+        searchField.addEventListener('keyup', (e) => realizaBusca(e.target.value));
+    </script>
+</body>
+</html>
